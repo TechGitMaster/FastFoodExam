@@ -11,14 +11,9 @@ git clone https://github.com/TechGitMaster/FastFoodExam.git
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and run for Website
 ```
 'npm run serve' or 'vue serve'
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```
 
 ## Run on Android Ionic and Capacitor
