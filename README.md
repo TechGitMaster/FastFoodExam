@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/TechGitMaster/FastFoodExam.git
 ```
-# Run on Android Ionic and Capacitor
+## Run on Android Ionic and Capacitor
 Install first Ionic extension on visual studio
 ![image](https://github.com/TechGitMaster/FastFoodExam/assets/52535645/2837453b-1034-4467-be47-76071f0b1aba)
 
