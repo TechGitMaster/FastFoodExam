@@ -43,7 +43,7 @@ click Build > click Android to run
 2. Go to: <br />
 ![image](https://github.com/TechGitMaster/FastFoodExam/assets/52535645/069f1955-a129-49e5-afcb-3be0e807a308)
 ```
-Settings > Buld Tools > Build, Execution, Deployment > Gradle > Gradle JDK. Change the version of JDK to version 17
+Settings > Build, Execution, Deployment> Buld Tools > Gradle > Gradle JDK. Change the version of JDK to version 17
 ```
 
 3. Last Run the System using available device <br />
