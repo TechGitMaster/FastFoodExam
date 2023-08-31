@@ -22,7 +22,7 @@ npm run build
 ```
 
 ## Run on Android Ionic and Capacitor
-**_NOTE:_**  This applcation required JDK 17 version to run.
+**_NOTE:_**  This application required JDK version 17 to run.
 
 1. Install first Ionic extension on visual studio
 ![image](https://github.com/TechGitMaster/FastFoodExam/assets/52535645/2837453b-1034-4467-be47-76071f0b1aba)
