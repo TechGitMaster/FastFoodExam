@@ -1,26 +1,17 @@
+<script src="./App.js"></script>
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="flex text-[14px]">
+
+        <!--___Left Side Nav___-->
+        <div v-if="showNav" class="w-[80%]">
+            <LeftSideNav :pageSelectedF="pageSelectedF" />
+        </div>
+        
+
+        <!--___Main Pages___-->
+        <div :class="`${showNav ? 'w-[20%]':'w-full'} overflow-hidden`">
+            <Main :showNavF="showNavF" :showNav="showNav" :pageSelected="pageSelected" :pageSelectedF="pageSelectedF" :pageName="pageName" />
+        </div>
+    </div>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
