@@ -22,7 +22,7 @@ npm run build
 'npm run serve' or 'vue serve'
 ```
 
-### Run on Android Ionic and Capacitor
+## Run on Android Ionic and Capacitor
 **_NOTE:_**  This application required JDK version 17 to run.
 
 1. Install first Ionic extension on visual studio
@@ -34,7 +34,7 @@ npm run build
 click Build > click Android to run
 ```
 
-### Error not showing application
+## Error not showing application
 **_NOTE:_** If you encounter an error which the app is not showing on the device, follow this step.
 
 1. Click 'Open in Android Studio' <br />
