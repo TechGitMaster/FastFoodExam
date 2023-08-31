@@ -5,10 +5,6 @@
 ```
 git clone https://github.com/TechGitMaster/FastFoodExam.git
 ```
-## Run on Android Ionic and Capacitor
-Install first Ionic extension on visual studio
-![image](https://github.com/TechGitMaster/FastFoodExam/assets/52535645/2837453b-1034-4467-be47-76071f0b1aba)
-
 
 ## Project setup
 ```
@@ -24,3 +20,17 @@ npm install
 ```
 npm run build
 ```
+
+## Run on Android Ionic and Capacitor
+**_NOTE:_**  This Application Request JDK 17 version to run.
+
+1. Install first Ionic extension on visual studio
+![image](https://github.com/TechGitMaster/FastFoodExam/assets/52535645/2837453b-1034-4467-be47-76071f0b1aba)
+
+2. Go to Ionic
+![image](https://github.com/TechGitMaster/FastFoodExam/assets/52535645/60fbaa8f-a9a4-48d2-805f-b1a60470a330)
+```
+click Build > click Android to run
+```
+
+
