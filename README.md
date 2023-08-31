@@ -12,6 +12,11 @@ git clone https://github.com/TechGitMaster/FastFoodExam.git
 npm install
 ```
 
+### Build the project
+```
+npm run build
+```
+
 ### Compiles and run for Website
 ```
 'npm run serve' or 'vue serve'
