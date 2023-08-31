@@ -15,6 +15,7 @@
         <div class="-mt-[1%] mb-5">
             <p class="font-semibold text-[15px]">{{ selectedMeal.strMeal }}</p>
             <img :src="pngs[1]" alt="ico" class="h-[30px] -ml-[14px] my-3" />
+
             <p class="text-[#767E85] text-justify">{{ selectedMeal.strInstructions }}</p>
         </div>
 

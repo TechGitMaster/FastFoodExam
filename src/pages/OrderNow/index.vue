@@ -1,10 +1,10 @@
 <template>
 
 
-    <div class="px-3">
+    <div>
 
         <!--____Search____-->
-        <div>
+        <div class="px-3">
             <div class='p-5 rounded-[15px] bg-[#F8F9FA] flex justify-between items-center' style="border:1px solid #DBDEE2">
                 <img :src="pngs[0]" alt="ico" class="h-[20px] mr-3" />
 
@@ -17,7 +17,7 @@
 
         <div v-if="wifiConnectivity">
             <!--____Categories_____-->
-            <div class="flex overflow-x-scroll scrollbar-none mt-4 mb-2">
+            <div class="flex overflow-x-scroll scrollbar-none mt-4 mb-2 px-3">
                 <div 
                     v-for="(data, index) in categoriesList" 
                     @click="selectedCategF(index, data.strCategory)"
@@ -29,7 +29,7 @@
 
 
             <!--____Foods____-->
-            <div>
+            <div class="px-3">
                 <div class="grid grid-cols-2">
                     <div v-for="(data, index) in filterList">
                         <div @click="selectedMeal((categSelect !== 0 ? categoriesList[categSelect].strCategory: data.strCategory), data.idMeal)" class="rounded-[17px] overflow-hidden bg-[#E9ECEF] mx-1 mt-3">
