@@ -6,7 +6,7 @@
         <div v-for="(data, index) in info" :class="`flex mx-3 mb-2 ${ data.clicked ? '':'items-center' }`">
             <div 
                 @click="data.clicked = !data.clicked"
-                :class="`rounded-[20px] mr-2 p-4 bg-[#E9ECEF] text-[#767E85] ${ data.clicked ? 'w-[75%]':'w-[95%]' }`">
+                :class="`rounded-[20px] mr-2 p-4 bg-[#E9ECEF] text-[#767E85] w-full`">
 
                 <div class="flex justify-between">
                     <p class="font-semibold mb-2 text-black truncate">{{ data.titleN }}</p>
@@ -21,19 +21,19 @@
             </div>
 
             <!--___Pen and Delete___-->
-            <div v-if="data.clicked" class="w-[25%] min-h-full flex">
-                <div class="bg-[#FCE4CF] p-3 flex items-center rounded-[15px] mr-2">
+            <div v-if="data.clicked" class="min-h-full flex">
+                <div class="bg-[#FCE4CF] p-3 w-[43px] flex justify-center items-center rounded-[15px] mr-2">
                     <img :src="pngs[0]" alt="ico" class="max-h-[23px]" />
                 </div>
 
-                <div class="bg-[#F5D7DA] p-3 flex items-center rounded-[15px]">
+                <div class="bg-[#F5D7DA] p-3 w-[43px] flex justify-center items-center rounded-[15px]">
                     <img :src="pngs[1]" alt="ico" class="max-h-[23px]" />
                 </div>
             </div>
 
 
             <!--___3 Dots____-->
-            <div v-if="!data.clicked" :class="`w-[5%] flex items-center justify-center`">
+            <div v-if="!data.clicked" :class="`mx-2 flex items-center justify-center`">
                 <div>
                     <div class="p-[4px] bg-[#F9BE05] rounded-[50%]"></div>
                     <div class="p-[4px] bg-[#F9BE05] rounded-[50%] my-2"></div>
@@ -50,7 +50,7 @@
             <div :class="`flex mx-3 mb-2 ${ orderClicked ? '':'items-center' }`">
                  <div 
                     @click="orderClicked = !orderClicked"
-                    :class="`rounded-[20px] mr-2 p-5 bg-[#E9ECEF] ${ orderClicked ? 'w-[87%]':'w-[95%]' }`">
+                    :class="`rounded-[20px] mr-2 p-5 bg-[#E9ECEF] w-full`">
 
                      <!--____Info foods_____-->
                     <div class="flex">
@@ -85,15 +85,15 @@
                  </div>
              
                  <!--___Delete___-->
-                 <div v-if="orderClicked" class="w-[13%] min-h-full flex">                     
-                     <div class="bg-[#F5D7DA] p-3 flex items-center rounded-[15px]">
+                 <div v-if="orderClicked" class="min-h-full flex">                     
+                     <div class="bg-[#F5D7DA] p-3 w-[43px] flex justify-center items-center rounded-[15px]">
                          <img :src="pngs[1]" alt="ico" class="max-h-[23px]" />
                      </div>
                  </div>
              
              
                  <!--___3 Dots____-->
-                 <div v-if="!orderClicked" :class="`w-[5%] flex items-center justify-center`">
+                 <div v-if="!orderClicked" :class="`mx-1 flex items-center justify-center`">
                      <div>
                          <div class="p-[4px] bg-[#F9BE05] rounded-[50%]"></div>
                          <div class="p-[4px] bg-[#F9BE05] rounded-[50%] my-2"></div>
